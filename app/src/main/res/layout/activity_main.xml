@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wingsofts.togglelayout.ToggleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logsignView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+  <LinearLayout
+      android:padding="16dp"
+      android:tag="sign"
+      android:id="@+id/ll_sign_up"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="#009688"
+      android:orientation="vertical"
+      >
+    <EditText
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        />
+    <EditText
+
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        />
+    <EditText
+
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Confirm Password"
+        />
+
+    <TextView
+
+        android:gravity="center"
+        android:tag="btn_signup"
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#4CAF50"
+        android:text="SIGN UP"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        />
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:padding="16dp"
+      android:tag="login"
+      android:id="@+id/ll_login"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="#00796B"
+      android:orientation="vertical"
+      >
+    <EditText
+
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        />
+    <EditText
+
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        />
+
+
+    <EditText
+
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Vertify"/>
+    <TextView
+        android:gravity="center"
+        android:tag="btn_login"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#4CAF50"
+        android:text="LOG IN"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        />
+  </LinearLayout>
+
+</com.wingsofts.togglelayout.ToggleLayout>
